@@ -6,14 +6,80 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/**** header ****/
 header{
     height: 60px;
+}
+
+.row{
+    height: 100%;
+    line-height: 60px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row #logo{
+    width: 25%;
+    float: left;
+}
+
+#logo img{
+    vertical-align: middle;
+}
+
+.row nav{
+    width: 50%;
+    float:left;
+    text-align: center;
+    
+}
+
+.row nav li{
+    display: inline-block;
+    text-align: center;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.row .accedi{
+    width: 25%;
+    float: left;
+    text-align: right;
+}
+
+.accedi .button{
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .container{
     width: 80%;
     margin: 0 auto;
 }
+
+/***** main *****/
+
+
+/****** footer ******/
 
 /* debug */
 
