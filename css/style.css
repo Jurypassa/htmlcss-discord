@@ -11,7 +11,14 @@ body{
 }
 
 /**** header ****/
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 header{
+    background-color: #255ee9;
     height: 60px;
 }
 
@@ -60,43 +67,93 @@ nav li a{
     text-align: right;
 }
 
-.accedi .button{
+.button{
     padding: 10px 15px;
-    background-color: white;
-    border-radius: 20px;
+    border-radius: 2em;
     text-decoration: none;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+div i{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+}
+
+.big{
+    padding: 15px 20px;
+    font-size: 20px;
 }
 
 a:hover{
     text-decoration: underline;
 }
 
-.container{
-    width: 80%;
-    margin: 0 auto;
+/***** main *****/
+
+.jumbotron{
+    height: 650px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
-/***** main *****/
+.jumbotron{
+    position: relative;
+}
+
+.jumbotron .container{
+    width: 40%;
+    text-align: center;
+    line-height: 1.6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron h1,
+.jumbotron p{
+    color: white;
+}
+
+.container h1{
+    font-size: 60px;
+}
+
+.container p{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
 
 
 /****** footer ******/
 
 /* debug */
 
-.debug .container{
+/* .debug .container{
     height: 100%;
     background-color: darkorange;
     border: 1px solid black;
-}
+} */
 
-.debug header{
+/* .debug header{
     background-color: red;
-}
+} */
 
-.debug .jumbotron{
+/* .debug .jumbotron{
     height: 500px;
     background-color: green;
-}
+} */
 
 .debug main{
     height: 500px;
