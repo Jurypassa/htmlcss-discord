@@ -1,7 +1,45 @@
-/* common */
+/***** common *****/
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 60px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* debug */
+
+.debug .container{
+    height: 100%;
+    background-color: darkorange;
+    border: 1px solid black;
+}
+
+.debug header{
+    background-color: red;
+}
+
+.debug .jumbotron{
+    height: 500px;
+    background-color: green;
+}
+
+.debug main{
+    height: 500px;
+    background-color:yellow;
+}
+
+.debug footer{
+    height: 500px;
+    background-color: gray;
+}
+
+
