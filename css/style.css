@@ -94,6 +94,12 @@ div i{
     margin-left: 30px;
 }
 
+.viola{
+    background-color: mediumpurple;
+    color: white;
+    text-align: center;
+}
+
 .big{
     padding: 15px 20px;
     font-size: 20px;
@@ -198,8 +204,61 @@ div i{
     text-align:center;
 }
 
+span{
+    display: block;
+    font-size: 28px;
+    font-weight: bold;   
+}
+
 /****** footer ******/
 
+footer{
+    background-color: black;
+    height: 500px;
+}
+
+.colonna{
+    height: 100%;
+    color: white;
+}
+
+.prodotto,
+.compagnia,
+.risorse,
+.norme{
+    width: 15%;
+    color: white;
+}
+
+.parlare{
+    width: 25%;
+    float: left;
+}
+
+.parlare p{
+    color: #9370db;
+    font-size: 40px;
+}
+
+.prodotto{
+    float: left;
+}
+
+.compagnia{
+    float: left;
+}
+
+.risorse{
+    float: left;
+}
+
+.norme{
+    float: left;
+}
+
+.link{
+    border-bottom: 1px solid #9370db;
+}
 /* debug */
 
 /* .debug .container{
