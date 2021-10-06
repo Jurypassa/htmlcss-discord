@@ -101,6 +101,8 @@ div i{
 
 /***** main *****/
 
+/***** inizio jumbo ****/
+
 .jumbotron{
     height: 650px;
     background-image: url(../img/jumbo.png);
@@ -126,6 +128,8 @@ div i{
     color: white;
 }
 
+/***** / jumbo *****/
+
 .container h1{
     font-size: 60px;
 }
@@ -147,12 +151,51 @@ div i{
     padding-top: 140px;
 }
 
-.testo-study h2{
+.testo-study h2,
+.quattro h2{
     font-size: 50px;
 }
 
-.testo-study p{
+.testo-study p,
+.quattro p{
     line-height: 2;
+}
+
+.voice{
+    width: 60%;
+    float: left;
+    padding-top: 100px;
+}
+
+.testo-voice{
+    width: 25%;
+    float: right;
+    padding-top: 140px;
+}
+
+.testo-voice h2{
+    font-size: 50px;
+}
+
+.testo-voice p{
+    line-height: 2;
+}
+
+.grigio{
+    background-color: #f3f4f5;
+}
+
+.quattro h2,
+.quattro p{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.centro{
+    display:block;
+    margin:0px auto;
+    text-align:center;
 }
 
 /****** footer ******/
