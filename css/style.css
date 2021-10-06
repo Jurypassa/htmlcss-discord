@@ -54,11 +54,16 @@ header{
     text-align: center;
 }
 
+
 nav li a{
     text-decoration: none;
     color: white;
     padding: 0 20px;
     font-size: 20px;
+}
+
+nav li a:hover{
+    text-decoration: underline;
 }
 
 .row .accedi{
@@ -92,10 +97,6 @@ div i{
 .big{
     padding: 15px 20px;
     font-size: 20px;
-}
-
-a:hover{
-    text-decoration: underline;
 }
 
 /***** main *****/
@@ -134,7 +135,25 @@ a:hover{
     padding: 20px 0;
 }
 
+.study{
+    width: 60%;
+    float: left;
+    padding-top: 100px;
+}
 
+.testo-study{
+    width: 25%;
+    float: right;
+    padding-top: 140px;
+}
+
+.testo-study h2{
+    font-size: 50px;
+}
+
+.testo-study p{
+    line-height: 2;
+}
 
 /****** footer ******/
 
@@ -155,14 +174,14 @@ a:hover{
     background-color: green;
 } */
 
-.debug main{
+/* .debug main{
     height: 500px;
     background-color:yellow;
-}
+} */
 
-.debug footer{
+/* .debug footer{
     height: 500px;
     background-color: gray;
-}
+} */
 
 
